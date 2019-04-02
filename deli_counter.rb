@@ -33,3 +33,10 @@ def now_serving(deli)
   end
 end
 
+counter = 0
+
+def take_a_number2(deli)
+  counter += 1
+  deli.push(counter)
+  puts "Welcome, you are number #{counter} in line."
+end
