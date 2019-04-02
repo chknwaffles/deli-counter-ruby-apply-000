@@ -20,7 +20,7 @@ end
 
 def take_a_number(deli, name)
   deli.push(name)
-  num = deli.index(name) + 1
+  num = deli.length + 1
   puts "Welcome, #{name}. You are number #{num} in line."
 end
 
