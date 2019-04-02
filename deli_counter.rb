@@ -26,7 +26,7 @@ end
 
 def now_serving(deli)
   serving = deli.shift
-  if deli.empty? 
+  if serving == '' && serving == nil
     puts "There is nobody waiting to be served!" 
   else
     puts "Currently serving #{serving}."
